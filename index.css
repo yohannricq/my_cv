@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+
+  .navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .fiche-contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 40px;
+    max-width: 900px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  #section-profil {
+    flex: 1;
+    text-align: center;
+  }
+
+  #section-profil img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    transform: rotate(-45deg);
+  }
+
+  #section-profil .img-wrapper {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transform: rotate(45deg);
+    margin: auto;
+  }
+
+  #section-formulaire{
+    flex: 1;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .intitule-poste, .stack-technique{
+    font-weight: bold;
+  }
+
+  .entreprise-lieu-date{
+    font-style: italic;
+  }
+
+  .experience{
+    margin-top: 20px;
+  }
+
+  .experience ul{
+    margin-bottom: 0px;
+  }
+
+  footer{
+    margin-top: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .fiche-contact {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .profil img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  
+  
